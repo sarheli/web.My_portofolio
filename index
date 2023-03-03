@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SARHELI</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+
+	<input type="checkbox" id="check">
+	<div class="sidebar">
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+
+	<header>
+		<div class="container">
+			<h1><a href="">SARHELI</a></h1>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+
+
+			<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+		</div>
+	</header>
+
+	<section class="banner">
+		<div class="container">
+			<div class="banner-left">
+				<img src="image/potoo.jpg">
+				<h2>Hallo...<br>
+					<img src="image/poto.png">
+					<span class="efek-ngetik"></span>
+				</h2>
+				<p>Welcome to my portfolio website</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<h3>About</h3>
+			<p>An enthusiastic student in the world of work that is related to mathematics, science and general
+				computing. Using Microsoft Office Word, Excel and Powerpoint smoothly with intermediate skills,
+				mastering the basics of LaTeX and Python (Package Sympy). Have experience teaching and spreading
+				knowledge to various groups on social media on Facebook and WhatsApp (groups). </p>
+
+		</div>
+	</section>
+
+
+	<section id="Home">
+		<div class="container">
+			<h3>Home</h3>
+			<h4>Hi, I'm Sarheli.
+				I am a Programmer and Researcher with a strong focus on problem solving and innovation.
+
+			</h4>
+
+			</h4>
+			<h4>1</h4>
+			<div class="bar">
+				<span class="nilai css"></span>
+			</div>
+
+			<h4>2</h4>
+			<div class="bar">
+				<span class="nilai js"></span>
+			</div>
+
+			<h4>3</h4>
+			<div class="bar">
+				<span class="nilai php"></span>
+			</div>
+
+			<h4>4</h4>
+			<div class="bar">
+				<span class="nilai ps"></span>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="portfolio">
+		<div class="container">
+			<h3>Portfolio</h3>
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik1</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik2</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik3</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik4</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik5</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik6</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik7</span>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="">
+					<img src="image/poto.png">
+					<span>Terbaik8</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h3>Contact</h3>
+			<div class="col-3">
+				<h4>Alamat</h4>
+				<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4006.7293147864966!2d106.7137190185037!3d-6.3392431498819946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e5796671aaed%3A0xf9870781549f27c!2s1%2C%20Jl.%20Anggrek%20No.17%2C%20RW.9%2C%20Benda%20Baru%2C%20Kec.%20Pamulang%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015415!5e1!3m2!1sid!2sid!4v1677784515972!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
+			</div>
+
+			<div class="col-3">
+				<h4>Email</h4>
+				<p>sarhelibeel@gmail.com</p>
+			</div>
+
+			<div class="col-3">
+				<h4>Telp/Hp</h4>
+				<p>+62 838-0789-9678</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; SARHELI</small>
+		</div>
+	</footer>
+	<script> src ="script.js"></script>
+
+	<body>
+
+</html>
